@@ -35,3 +35,11 @@ header{
 footer{
     background-color: rgb(75, 73, 73);
 }
+
+.bi-facebook::before , .bi-google::before , .bi-linkedin::before , .bi-twitter::before{
+    font-size: 1.5em;
+    margin: 5px;
+    padding:10px;
+    border: 1px white solid;
+    border-radius: 50%;
+}
