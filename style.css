@@ -11,3 +11,9 @@ header{
 .bi-card-text{
     font-size: 2em;
 }
+
+.card{
+    height:300px;
+    margin-top: 30px;
+    border: 1px black solid;
+}
