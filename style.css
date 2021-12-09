@@ -1,0 +1,13 @@
+section{
+    border: 1px black solid;
+    height: 500px;
+}
+
+header{
+    height: 50px;
+    border: 1px red solid;
+}
+
+.bi-card-text{
+    font-size: 2em;
+}
