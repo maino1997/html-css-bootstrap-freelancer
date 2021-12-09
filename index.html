@@ -12,31 +12,34 @@
 <body>
     <header class="d-flex container-fluid justify-content-between align-items-center">
         <h1>Start bootstrap</h1>
-        <i class="bi bi-card-text"></i>
+        <ul class="d-none d-md-inline">
+            <li class="d-inline"><a href="#" class="text-black">PORTFOLIO</a></li>
+            <li class="d-inline"><a href="#" class="text-black">ABOUT</a></li>
+            <li class="d-inline"><a href="#" class="text-black">CONTACT</a></li>
+        </ul>
+        <i class="bi bi-card-text d-md-none"></i>
     </header>   
     
-    <section class="spotlight d-flex flex-column container-fluid">
-        <div class="row">
-            <figure>
-                <img src="https://picsum.photos/id/237/200/300" alt="photo" class="ms-auto">
-            </figure>
-        </div>
-        <div class="row text-center">
-            <h2>Start Bootstrap</h2>
-        </div>
-        <div class="row justify-content-center text-center">
-            <div class="bar"></div>
-            <i class="bi bi-star-fill"></i>
-            <div class="bar"></div>
-        </div>
-        <div class="row">
-            <ul class="d-flex justify-content-center">
-                <li class="d-inline">GRAPHIC ARTIST-</li>
-                <li class="d-inline">WEB DESIGNER-</li>
-                <li class="d-inline">ILLUSTRATOR</li>
-            </ul>
-        </div>
-    </section>
+    <div class="container-fluid">
+        <section class="spotlight d-flex flex-column">
+                <figure class="text-center">
+                    <img src="https://picsum.photos/id/237/200/300" alt="photo" class="ms-auto">
+                </figure>
+            <div class="row text-center">
+                <h2>Start Bootstrap</h2>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="bar"></div>
+                <i class="bi bi-star-fill"></i>
+                <div class="bar"></div>
+            </div>
+                <ul class="d-flex justify-content-center">
+                    <li class="d-inline">GRAPHIC ARTIST-</li>
+                    <li class="d-inline">WEB DESIGNER-</li>
+                    <li class="d-inline">ILLUSTRATOR</li>
+                </ul>
+        </section>
+    </div>
     
     <main>
         <div class="row text-center">
@@ -45,42 +48,48 @@
         <div class="row text-center">    
             <i class="bi bi-star-fill"></i>
         </div>
-        <div class="row container">
-            <div class="card col-12-sm col-md-6 col-lg-4">
+        <div class="container">
+            <div class="row">
+                <div class="card col-12-sm col-md-6 col-lg-4">
 
-            </div>
+                </div>
 
-            <div class="card col-12-sm col-md-6 col-lg-4">
+                <div class="card col-12-sm col-md-6 col-lg-4">
 
-            </div>
-            <div class="card col-12-sm col-md-6 col-lg-4">
+                </div>
+                <div class="card col-12-sm col-md-6 col-lg-4">
 
-            </div>
-            <div class="card col-12-sm col-md-6 col-lg-4">
+                </div>
+                <div class="card col-12-sm col-md-6 col-lg-4">
 
-            </div>
-            <div class="card col-12-sm col-md-6 col-lg-4">
+                </div>
+                <div class="card col-12-sm col-md-6 col-lg-4">
 
-            </div>
-            <div class="card col-12-sm col-md-6 col-lg-4">
+                </div>
+                <div class="card col-12-sm col-md-6 col-lg-4">
 
+                </div>
             </div>
         </div>
-        <section class="spotlight row container-fluid">
-            <div class="col-sm col-md-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deserunt, aut itaque eos totam labore quia, exercitationem laborum quos provident temporibus quasi nostrum omnis explicabo cum odit amet repudiandae. Optio.
-            </div>
-            <div class="col-sm col-6-md">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi beatae impedit tenetur doloribus ex vel sunt voluptate maxime inventore possimus quaerat, consequatur dignissimos itaque officiis eveniet corrupti at nobis nesciunt!
-            </div>
-        </section>
-        
-        <section class="spotlight d-flex container-fluid">
-            <div class="row text-center">    
-                <i class="bi bi-star-fill"></i>
-            </div>
 
-        </section>            
+        <div class="container-fluid">
+            <section class="row">
+                <div class="col-sm col-md-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deserunt, aut itaque eos totam labore quia, exercitationem laborum quos provident temporibus quasi nostrum omnis explicabo cum odit amet repudiandae. Optio.
+                </div>
+                <div class="col-sm col-6-md">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi beatae impedit tenetur doloribus ex vel sunt voluptate maxime inventore possimus quaerat, consequatur dignissimos itaque officiis eveniet corrupti at nobis nesciunt!
+                </div>
+            </section>
+        </div>
+        
+        <div class="container-fluid">
+            <section class="d-flex">
+                <div class="row text-center">    
+                    <i class="bi bi-star-fill"></i>
+                </div>
+            </section>      
+        </div>      
     </main>
 
     <footer>
