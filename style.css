@@ -55,6 +55,11 @@ footer{
     border-radius: 50%;
 }
 
+.footer-top{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .footer-bottom{
     min-height: 50px;
     background-color: rgb(49, 45, 45);
