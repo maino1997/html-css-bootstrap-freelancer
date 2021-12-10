@@ -5,6 +5,10 @@
     background-color: black;
 }
 
+.spotlight .bar{
+    background-color: white;
+}
+
 .box{
     border-radius: 10px;
 }
