@@ -77,3 +77,7 @@ footer{
     color: white;
     border-color: white;
 }
+
+.footer-top span{
+    color:rgb(34, 216, 201);
+}
