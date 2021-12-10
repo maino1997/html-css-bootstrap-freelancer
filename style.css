@@ -1,8 +1,10 @@
 .bar{
     display: inline-block;
-    width: 50px;
+    width: 120px;
     height: 3px;
+    border-radius: 5px;
     background-color: black;
+    margin: 0 15px 0 15px;
 }
 
 .spotlight .bar{
@@ -15,6 +17,8 @@
 
 section{
     min-height: 500px;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 header{
@@ -25,6 +29,10 @@ header{
 .bi-card-text{
     font-size: 2em;
     cursor: pointer;
+}
+
+.bi-star-fill{
+    font-size: 1.5em;
 }
 
 .spotlight{
@@ -53,11 +61,17 @@ footer{
 }
 
 #logo{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
 }
 
 .form-control{
     border: 0;
     border-bottom: 1px solid #ced4da;
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
