@@ -56,3 +56,8 @@ footer{
     height: 150px;
     width: 150px;
 }
+
+.form-control{
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+}

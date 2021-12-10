@@ -118,18 +118,28 @@
                                 <div class="bar"></div>
                                 <i class="bi bi-star-fill"></i>
                                 <div class="bar"></div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                    <ul class="list-unstyled">
-                        <li>Nome</li>
-                        <li><hr></li>
-                        <li>Email Address</li>
-                        <li><hr></li>
-                        <li>Phone Number</li>
-                        <li><hr></li>
-                        <li>Message</li>
-                    </ul>                   
+                    </div>  
+                    <form>
+                        <div class="mb-3">
+                          <label for="Name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="Name" name="Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                          </div>
+                          <div class="mb-3">
+                            <label for="tel" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="tel" name="tel">
+                          </div>
+                          <div class="mb-3">
+                            <label for="message" class="form-label">Name</label>
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-success">Send</button>
+                      </form>  
                 </div>
             </section>
         </div>    
