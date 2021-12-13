@@ -59,7 +59,6 @@ footer{
 }
 
 #logo{
-    /* height: 200px; */
     max-width: 200px;
     margin-top: 30px;
 }
@@ -79,6 +78,8 @@ footer{
     border-color: white;
 }
 
-.footer-top span{
+
+.footer-top a{
+    text-decoration: none;
     color:rgb(34, 216, 201);
 }
